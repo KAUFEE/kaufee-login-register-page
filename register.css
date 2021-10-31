@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #6C4A4A;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form
+{
+    position: relative;
+    width: 400px;
+    height: 100%;
+    justify-content: center;
+}
+
+.form h2
+{
+    position: relative;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.form .input-box
+{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .input-box input
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 200;
+}
+
+.form .input-box input[type="password"]
+{
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.form .underline-class
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 1px;
+    margin-bottom: 50px;
+}
+
+.form .underline-class .underline
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.form .input-box input::placeholder
+{
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.form .input-box input[type="submit"]
+{
+    background: #fff;
+    border: 2px solid #fff;
+    max-width: 150px;
+    color:#6C4A4A;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form .input-box input[type="submit"]:hover
+{
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+}
+
+.forget
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.forget a
+{
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.forget a:hover
+{
+    color: rgba(255,255,255,1);
+}
